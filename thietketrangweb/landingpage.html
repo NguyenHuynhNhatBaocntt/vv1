@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="./css/landingpage.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-DQvkBjpPgn7RC31MCQoOeC9TI2kdqa4+BSgNMNj8v77fdC77Kj5zpWFTJaaAoMbC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Banner -->
+    <div class="text-center py-2 bg-danger text-dark fw-bold"
+        style="letter-spacing: 4px; font-family: 'UTM Bebas', sans-serif; font-size: 20px; margin-bottom: 10px;">
+        VUA VỢT - CHUYÊN CUNG CẤP CÁC SẢN PHẨM CẦU LÔNG CHÍNH HÃNG
+    </div>
+
+    <!-- Header -->
+    <header class="bg-light border-bottom">
+        <div class="container">
+            <div class="row align-items-center g-3 py-3">
+                <!-- Logo -->
+                <div class="col-6 col-md-2 d-flex justify-content-center justify-content-md-start">
+                    <img src="logo1.png" alt="Logo" class="img-fluid" style="max-width: 90px;">
+                </div>
+
+                <!-- Right Section -->
+                <div class="col-12 col-md-10">
+                    <div class="row align-items-center g-3">
+                        <!-- Search -->
+                        <div class="col-12 col-md-5">
+                            <input type="text" class="form-control w-100" placeholder="Tìm kiếm sản phẩm">
+                        </div>
+
+                        <!-- Hotline -->
+                        <div class="col-6 col-md-3 d-none d-md-flex align-items-center">
+                            <i class="bi bi-telephone me-2 fs-2 text-dark"></i>
+                            <div>
+                                <div class="fw" style="font-family:'quicksand',sans-serif;">Hotline</div>
+                                <span class="text-dark fw-bold"
+                                    style="font-family:'quicksand',sans-serif;">0909090909</span>
+                            </div>
+                        </div>
+
+                        <!-- Auth -->
+                        <div class="col-6 col-md-2 d-none d-md-flex align-items-center">
+                            <i class="bi bi-person me-2 fs-2 text-dark"></i>
+                            <span class="fw-bold" style="font-family:'quicksand',sans-serif;">Đăng nhập<br>Đăng
+                                ký</span>
+                        </div>
+
+                        <!-- Cart -->
+                        <div class="col-12 col-sm-6 col-md-2">
+                            <div
+                                class="d-flex align-items-center border border-dark rounded px-3 py-2 bg-light shadow-sm h-100">
+                                <i class="bi bi-cart me-1 fs-4 text-dark"></i>
+                                <span class="fw-bold fs-9 text-dark" style="font-family:'quicksand',sans-serif;">Giỏ
+                                    hàng</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#"
+                            style="font-family:'Quicksand', sans-serif; border-bottom: 3px solid #D70000;">Trang chủ</a>
+                    </li>
+                    <li class="nav-item" style="font-family:'quicksand',sans-serif;"><a class="nav-link" href="#">Giới
+                            thiệu</a></li>
+                    <li class="nav-item" style="font-family:'quicksand',sans-serif;"><a class="nav-link" href="#">Vợt
+                            cầu lông</a></li>
+                    <li class="nav-item" style="font-family:'quicksand',sans-serif;"><a class="nav-link" href="#">Giày
+                            thể thao</a></li>
+                    <li class="nav-item" style="font-family:'quicksand',sans-serif;"><a class="nav-link" href="#">Ba lô
+                            thể thao</a></li>
+                    <li class="nav-item" style="font-family:'quicksand',sans-serif;"><a class="nav-link" href="#">Phụ
+                            kiện khác</a></li>
+                    <li class="nav-item" style="font-family:'quicksand',sans-serif;"><a class="nav-link" href="#">Tin
+                            tức</a></li>
+                    <li class="nav-item" style="font-family:'quicksand',sans-serif;"><a class="nav-link" href="#">Liên
+                            hệ</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- BOOTSTRAP JS (BẮT BUỘC) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JavaScript TỰ ĐÓNG MENU khi click vào link (có thể giữ nếu thích) -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const navLinks = document.querySelectorAll('.nav-link');
+            const navCollapse = document.getElementById('navbarNav');
+
+            navLinks.forEach(function (link) {
+                link.addEventListener('click', function () {
+                    if (window.innerWidth < 992) {
+                        // Collapse Bootstrap đã khởi tạo sẵn – dùng Collapse API
+                        const bsCollapse = bootstrap.Collapse.getInstance(navCollapse);
+                        if (bsCollapse) {
+                            bsCollapse.hide(); // Đóng menu lại
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+    <!-- Slider Banner -->
+    <section class="slider">
+        <div class="slides">
+            <img src="https://s3-alpha-sig.figma.com/img/ca47/89f7/d59cb38e91ae2e67e22c0462ac4776c2?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=uQjAPhGDGxvlbStBRtQujyLCmKC2bUWdzhd7N-YopduqnrAlamkIq5RNziGV-fqnKVa8OuQmnLiwEa36sMmoTOs7LMxp-Ifr3PpT4zDoC7IWcN57BxMRo~abADJaV7tQRttA5S~doXCJhEZx1LuFZEccmkxX1yjGlWqHKAo6v4BxOvAtJSP2wrhbcpSlO7-MWF9gE90FZaQKyac8fScWf6t5esX~GgNs6v12QgospUcVRVKMCu7CNl-5fvdHOQK7arI2nyvEv8TlUn0LCHocsEHtzGTNsuCUUwb2nEfTjyO-xel5ykhguhOa6YDIfWtt46yITTZTeIH-VLy377US2w"
+                class="active" alt="Slide 1">
+            <img src="https://s3-alpha-sig.figma.com/img/ca47/89f7/d59cb38e91ae2e67e22c0462ac4776c2?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=uQjAPhGDGxvlbStBRtQujyLCmKC2bUWdzhd7N-YopduqnrAlamkIq5RNziGV-fqnKVa8OuQmnLiwEa36sMmoTOs7LMxp-Ifr3PpT4zDoC7IWcN57BxMRo~abADJaV7tQRttA5S~doXCJhEZx1LuFZEccmkxX1yjGlWqHKAo6v4BxOvAtJSP2wrhbcpSlO7-MWF9gE90FZaQKyac8fScWf6t5esX~GgNs6v12QgospUcVRVKMCu7CNl-5fvdHOQK7arI2nyvEv8TlUn0LCHocsEHtzGTNsuCUUwb2nEfTjyO-xel5ykhguhOa6YDIfWtt46yITTZTeIH-VLy377US2w__"
+                alt="Slide 2">
+            <img src="https://s3-alpha-sig.figma.com/img/ca47/89f7/d59cb38e91ae2e67e22c0462ac4776c2?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=uQjAPhGDGxvlbStBRtQujyLCmKC2bUWdzhd7N-YopduqnrAlamkIq5RNziGV-fqnKVa8OuQmnLiwEa36sMmoTOs7LMxp-Ifr3PpT4zDoC7IWcN57BxMRo~abADJaV7tQRttA5S~doXCJhEZx1LuFZEccmkxX1yjGlWqHKAo6v4BxOvAtJSP2wrhbcpSlO7-MWF9gE90FZaQKyac8fScWf6t5esX~GgNs6v12QgospUcVRVKMCu7CNl-5fvdHOQK7arI2nyvEv8TlUn0LCHocsEHtzGTNsuCUUwb2nEfTjyO-xel5ykhguhOa6YDIfWtt46yITTZTeIH-VLy377US2w__"
+                alt="Slide 3">
+            <img src="https://s3-alpha-sig.figma.com/img/ca47/89f7/d59cb38e91ae2e67e22c0462ac4776c2?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=uQjAPhGDGxvlbStBRtQujyLCmKC2bUWdzhd7N-YopduqnrAlamkIq5RNziGV-fqnKVa8OuQmnLiwEa36sMmoTOs7LMxp-Ifr3PpT4zDoC7IWcN57BxMRo~abADJaV7tQRttA5S~doXCJhEZx1LuFZEccmkxX1yjGlWqHKAo6v4BxOvAtJSP2wrhbcpSlO7-MWF9gE90FZaQKyac8fScWf6t5esX~GgNs6v12QgospUcVRVKMCu7CNl-5fvdHOQK7arI2nyvEv8TlUn0LCHocsEHtzGTNsuCUUwb2nEfTjyO-xel5ykhguhOa6YDIfWtt46yITTZTeIH-VLy377US2w__"
+                alt="Slide 4">
+        </div>
+        <div class="dots">
+            <span class="dot active" onclick="changeSlide(0)"></span>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="dot" onclick="changeSlide(1)"></span>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="dot" onclick="changeSlide(2)"></span>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="dot" onclick="changeSlide(3)"></span>
+        </div>
+    </section>
+    <!-- Three Images Row -->
+    <section>
+        <div class="container text-center">
+            <div class="vien">
+                <div class="swiper custom-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img
+                                src="https://s3-alpha-sig.figma.com/img/50e4/c7ba/c25a42dd4b64c22fad1020f8871836d6?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Qy~giNCiQvs-uQqOtkQE8cn-IrH3pMELP6Nu4vfsYOIH8PJeJyC0kz7qT7S3k7R1UJ38nuGYD4iQ8tbIQt0U6TunToou3BEhHYmaGJVhlnBINqB0TnqaRBw1ifZ7DKz02gklZyeQRFFLU26EcUvZjh~HeE61jI0TRAu2Lnh1wuzRHkBYlvNlKXAkIboX3~jfDoDzYKeA9iDlpGESymc97tyahu~8JfTRXzkToZmww2Er2AXDJ6~3qAyoaVVRnx8RQDPDF3Q7aQLgWhr37uBuNy5t2IsLySXkDbN4vOfAwKFcy6OPYDeBXayvdvngDD2meV2DsVIPCL-wPeNi1J7BFQ__"
+                                alt="Hình 1"></div>
+                        <div class="swiper-slide"><img
+                                src="https://s3-alpha-sig.figma.com/img/50e4/c7ba/c25a42dd4b64c22fad1020f8871836d6?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Qy~giNCiQvs-uQqOtkQE8cn-IrH3pMELP6Nu4vfsYOIH8PJeJyC0kz7qT7S3k7R1UJ38nuGYD4iQ8tbIQt0U6TunToou3BEhHYmaGJVhlnBINqB0TnqaRBw1ifZ7DKz02gklZyeQRFFLU26EcUvZjh~HeE61jI0TRAu2Lnh1wuzRHkBYlvNlKXAkIboX3~jfDoDzYKeA9iDlpGESymc97tyahu~8JfTRXzkToZmww2Er2AXDJ6~3qAyoaVVRnx8RQDPDF3Q7aQLgWhr37uBuNy5t2IsLySXkDbN4vOfAwKFcy6OPYDeBXayvdvngDD2meV2DsVIPCL-wPeNi1J7BFQ__"
+                                alt="Hình 2"></div>
+                        <div class="swiper-slide"><img
+                                src="https://s3-alpha-sig.figma.com/img/50e4/c7ba/c25a42dd4b64c22fad1020f8871836d6?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Qy~giNCiQvs-uQqOtkQE8cn-IrH3pMELP6Nu4vfsYOIH8PJeJyC0kz7qT7S3k7R1UJ38nuGYD4iQ8tbIQt0U6TunToou3BEhHYmaGJVhlnBINqB0TnqaRBw1ifZ7DKz02gklZyeQRFFLU26EcUvZjh~HeE61jI0TRAu2Lnh1wuzRHkBYlvNlKXAkIboX3~jfDoDzYKeA9iDlpGESymc97tyahu~8JfTRXzkToZmww2Er2AXDJ6~3qAyoaVVRnx8RQDPDF3Q7aQLgWhr37uBuNy5t2IsLySXkDbN4vOfAwKFcy6OPYDeBXayvdvngDD2meV2DsVIPCL-wPeNi1J7BFQ__"
+                                alt="Hình 3"></div>
+                        <div class="swiper-slide"><img
+                                src="https://s3-alpha-sig.figma.com/img/50e4/c7ba/c25a42dd4b64c22fad1020f8871836d6?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Qy~giNCiQvs-uQqOtkQE8cn-IrH3pMELP6Nu4vfsYOIH8PJeJyC0kz7qT7S3k7R1UJ38nuGYD4iQ8tbIQt0U6TunToou3BEhHYmaGJVhlnBINqB0TnqaRBw1ifZ7DKz02gklZyeQRFFLU26EcUvZjh~HeE61jI0TRAu2Lnh1wuzRHkBYlvNlKXAkIboX3~jfDoDzYKeA9iDlpGESymc97tyahu~8JfTRXzkToZmww2Er2AXDJ6~3qAyoaVVRnx8RQDPDF3Q7aQLgWhr37uBuNy5t2IsLySXkDbN4vOfAwKFcy6OPYDeBXayvdvngDD2meV2DsVIPCL-wPeNi1J7BFQ__"
+                                alt="Hình 3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".custom-swiper", {
+            slidesPerView: 3,
+            spaceBetween: 20,
+            centeredSlides: true,
+            loop: true,
+            loopedSlides: 3, // Giữ vòng lặp mượt
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+            },
+            speed: 1000,
+            on: {
+                slideChangeTransitionEnd: function () {
+                    if (swiper.realIndex === 0) {
+                        setTimeout(() => {
+                            swiper.slideTo(2, 1000); // Nhảy từ slide 1 (index 0) sang slide 3 (index 2)
+                        }, 100);
+                    }
+                }
+            }
+        });
+    </script>
+    <section class="container my-4">
+        <div class="d-flex justify-content-between align-items-left mb-3">
+            <span class="section-title" style="font-family:'UTM Bebas',sans-serif;">BÁN CHẠY NHẤT</span>
+            <a href="#" class="btn"
+                style="font-weight: bold; block: none; color: black; font-size: 20px; font-family:'UTM Bebas',sans-serif;">XEM
+                THÊM
+                <span style="color: red; font-size: 2opx;">»</span></a>
+        </div>
+    </section>
+    <section class="container my-4 mau">
+        <div class="container my-4">
+            <div class="scroll-container">
+                <div class="row flex-nowrap g-3">
+                    <div class="col-6 col-md-3">
+                        <div class="card active">
+                            <img src="https://s3-alpha-sig.figma.com/img/c6b0/1de7/01af3087cd464537d40ef9b5d4835852?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=SW~SmFmr0-Pb0Q3aMKpgM8hduqz9t29BZE5hLefQ6zowilPL8OQM5336xY5F2-xQV4DoQIJNd6vmXfSFe4yWP79Sz5DgIgvB5i2LROR1kPWK-xFHFPYJeEgRLWyZrP7zAmTSef7tG0z4qelOI7OtEyZ901OzbLxYBhRhPrSudHVDp-dI0fYHvscrZ~UU3zpGAk5K6Df~8FF0eZ3z6lZll5upRRQuF1Ps3gR1-JAETD~4kZoDGGFkOJqx82ddKa0~JFkmfp~cFK93I411PamjJwtQlLHIjioguNRzj63uA6zaLc-5Hytu9HGYQUsrPELc4umKMqVG8YX9ZealWdYcHw__"
+                                class="card-img-top" alt="Vợt cầu lông">
+                            <div class="card-body">
+                                <h5 class="card-title">Vợt cầu lông Lining halbertec 2000</h5>
+                                <p class="text-muted">2 màu</p>
+                                <p class="fw-bold text-danger">1,150,000 đ
+                                    <span class="text-decoration-line-through text-muted">4,150,000 đ</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="card active">
+                            <img src="https://s3-alpha-sig.figma.com/img/c6b0/1de7/01af3087cd464537d40ef9b5d4835852?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=SW~SmFmr0-Pb0Q3aMKpgM8hduqz9t29BZE5hLefQ6zowilPL8OQM5336xY5F2-xQV4DoQIJNd6vmXfSFe4yWP79Sz5DgIgvB5i2LROR1kPWK-xFHFPYJeEgRLWyZrP7zAmTSef7tG0z4qelOI7OtEyZ901OzbLxYBhRhPrSudHVDp-dI0fYHvscrZ~UU3zpGAk5K6Df~8FF0eZ3z6lZll5upRRQuF1Ps3gR1-JAETD~4kZoDGGFkOJqx82ddKa0~JFkmfp~cFK93I411PamjJwtQlLHIjioguNRzj63uA6zaLc-5Hytu9HGYQUsrPELc4umKMqVG8YX9ZealWdYcHw__"
+                                class="card-img-top" alt="Vợt cầu lông">
+                            <div class="card-body text-left">
+                                <h5 class="card-title">Vợt cầu lông Lining halbertec 2000</h5>
+                                <p class="text-muted">2 màu</p>
+                                <p class="fw-bold text-danger">1,150,000 đ <span
+                                        class="text-decoration-line-through text-muted">4,150,000 đ</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="card active">
+                            <img src="https://s3-alpha-sig.figma.com/img/c6b0/1de7/01af3087cd464537d40ef9b5d4835852?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=SW~SmFmr0-Pb0Q3aMKpgM8hduqz9t29BZE5hLefQ6zowilPL8OQM5336xY5F2-xQV4DoQIJNd6vmXfSFe4yWP79Sz5DgIgvB5i2LROR1kPWK-xFHFPYJeEgRLWyZrP7zAmTSef7tG0z4qelOI7OtEyZ901OzbLxYBhRhPrSudHVDp-dI0fYHvscrZ~UU3zpGAk5K6Df~8FF0eZ3z6lZll5upRRQuF1Ps3gR1-JAETD~4kZoDGGFkOJqx82ddKa0~JFkmfp~cFK93I411PamjJwtQlLHIjioguNRzj63uA6zaLc-5Hytu9HGYQUsrPELc4umKMqVG8YX9ZealWdYcHw__"
+                                class="card-img-top" alt="Vợt cầu lông">
+                            <div class="card-body text-left">
+                                <h5 class="card-title">Vợt cầu lông Lining halbertec 2000</h5>
+                                <p class="text-muted">2 màu</p>
+                                <p class="fw-bold text-danger">1,150,000 đ <span
+                                        class="text-decoration-line-through text-muted">4,150,000 đ</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="card active">
+                            <img src="https://s3-alpha-sig.figma.com/img/c6b0/1de7/01af3087cd464537d40ef9b5d4835852?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=SW~SmFmr0-Pb0Q3aMKpgM8hduqz9t29BZE5hLefQ6zowilPL8OQM5336xY5F2-xQV4DoQIJNd6vmXfSFe4yWP79Sz5DgIgvB5i2LROR1kPWK-xFHFPYJeEgRLWyZrP7zAmTSef7tG0z4qelOI7OtEyZ901OzbLxYBhRhPrSudHVDp-dI0fYHvscrZ~UU3zpGAk5K6Df~8FF0eZ3z6lZll5upRRQuF1Ps3gR1-JAETD~4kZoDGGFkOJqx82ddKa0~JFkmfp~cFK93I411PamjJwtQlLHIjioguNRzj63uA6zaLc-5Hytu9HGYQUsrPELc4umKMqVG8YX9ZealWdYcHw__"
+                                class="card-img-top" alt="Vợt cầu lông">
+                            <div class="card-body text-left">
+                                <h5 class="card-title">Vợt cầu lông Lining halbertec 2000</h5>
+                                <p class="text-muted">2 màu</p>
+                                <p class="fw-bold text-danger">1,150,000 đ <span
+                                        class="text-decoration-line-through text-muted">4,150,000 đ</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="card active">
+                            <img src="https://s3-alpha-sig.figma.com/img/c6b0/1de7/01af3087cd464537d40ef9b5d4835852?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=SW~SmFmr0-Pb0Q3aMKpgM8hduqz9t29BZE5hLefQ6zowilPL8OQM5336xY5F2-xQV4DoQIJNd6vmXfSFe4yWP79Sz5DgIgvB5i2LROR1kPWK-xFHFPYJeEgRLWyZrP7zAmTSef7tG0z4qelOI7OtEyZ901OzbLxYBhRhPrSudHVDp-dI0fYHvscrZ~UU3zpGAk5K6Df~8FF0eZ3z6lZll5upRRQuF1Ps3gR1-JAETD~4kZoDGGFkOJqx82ddKa0~JFkmfp~cFK93I411PamjJwtQlLHIjioguNRzj63uA6zaLc-5Hytu9HGYQUsrPELc4umKMqVG8YX9ZealWdYcHw__"
+                                class="card-img-top" alt="Vợt cầu lông">
+                            <div class="card-body text-left">
+                                <h5 class="card-title">Vợt cầu lông Lining halbertec 2000</h5>
+                                <p class="text-muted">2 màu</p>
+                                <p class="fw-bold text-danger">1,150,000 đ <span
+                                        class="text-decoration-line-through text-muted">4,150,000 đ</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container my-4">
+        <div class="d-flex justify-content-between align-items-left mb-3">
+            <span class="section-title" style=" font-family: 'UTM Bebas', sans-serif;">BÁN CẦU LÔNG</span>
+            <a href="#" class="btn"
+                style="font-weight: bold; block: none; color: black; font-size: 20px;  font-family: 'UTM Bebas', sans-serif;">XEM
+                THÊM
+                <span style="color: #D70000; font-size: 2opx;">»</span></a>
+        </div>
+    </section>
+    <section class="container my-4">
+        <div id="carouselRackets" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row" id="productRowRackets" style="display: flex; flex-wrap: nowrap; overflow-x: auto;">
+                        <div class="col-6 col-md-3">
+                            <div class="card active">
+                                <img src="https://s3-alpha-sig.figma.com/img/c6b0/1de7/01af3087cd464537d40ef9b5d4835852?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=SW~SmFmr0-Pb0Q3aMKpgM8hduqz9t29BZE5hLefQ6zowilPL8OQM5336xY5F2-xQV4DoQIJNd6vmXfSFe4yWP79Sz5DgIgvB5i2LROR1kPWK-xFHFPYJeEgRLWyZrP7zAmTSef7tG0z4qelOI7OtEyZ901OzbLxYBhRhPrSudHVDp-dI0fYHvscrZ~UU3zpGAk5K6Df~8FF0eZ3z6lZll5upRRQuF1Ps3gR1-JAETD~4kZoDGGFkOJqx82ddKa0~JFkmfp~cFK93I411PamjJwtQlLHIjioguNRzj63uA6zaLc-5Hytu9HGYQUsrPELc4umKMqVG8YX9ZealWdYcHw__"
+                                    class="card-img-top" alt="Vợt 1">
+                                <div class="card-body text-left">
+                                    <h5 class="card-title" style="color: white;">Vợt cầu lông Lining Halbertec 2000
+                                    </h5>
+                                    <p class="text-muted" style="color: #ffffff;">2 màu</p>
+                                    <p class="fw-bold text-danger">1,150,000 đ <span
+                                            class="text-decoration-line-through text-muted">4,150,000 đ</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Các sản phẩm còn lại (4 sản phẩm) -->
+                        <div class="col-6 col-md-3">
+                            <div class="card active">
+                                <img src="https://s3-alpha-sig.figma.com/img/abc4/6259/8d38e8ad9dfdeffb3c88a44009380c26?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Y3kAAGtwKV00X1VUIrUvWAMHpRieMAvhC-DjxYwVAGx1bPvV5GDA3i2bEKvG89TILpwdR1CtL-p~hAi~p0oTzDWLlgq0MPsvdVB6koOyCPdwFa1C7hlTt0AdqVHvaKW1W816ZTIk7qTUjFeg3WAJPTnMboYpyqeVztrTzuqIrXyiOzFvRwlipT35Qoea1VYlf1flvlA2O0BT8eB716FrEUdngRQ7KQoTO5ienTiWxYKc83Fk2dIb5tF6tAu60gnxZLMVg7~qXfApG6PGU1tuY414X5Q4lm-bzQIlvMnSJ4QAUJYiHk8y9mZox5UpB5KBULJg7mxEzrU-ip1VbJe87Q__"
+                                    class="card-img-top" alt="Vợt 2">
+                                <div class="card-body text-left">
+                                    <h5 class="card-title">Vợt cầu lông Lining Halbertec 2000</h5>
+                                    <p class="text-muted">2 màu</p>
+                                    <p class="fw-bold text-danger">1,150,000 đ <span
+                                            class="text-decoration-line-through text-muted">4,150,000 đ</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Thêm các sản phẩm cho đến sản phẩm thứ 5 -->
+                        <div class="col-6 col-md-3">
+                            <div class="card active">
+                                <img src="https://s3-alpha-sig.figma.com/img/462b/61f4/d0ee3abd6943ab8368101d3d72a064ac?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=e1KLvX6Nr2y3VhDkGOIO9BN7wsjpotnzw7XjQC5lbNVFrWISVj2jvD4NXHrYPedIeMoGhlLgG8rDweZz9Qu00Vjz113YMtDdac3LbSJu85EVNmz8Z6N1adjCc~QrdQ77VgDS3xllm4mMu-h86Ru2HIlGpKszsh1tDaPmPP434Ter1LcXP9pn~ZWmwXwgSs5DF7IqgPOurIyckt930uOJNRbfJNSbaKzfq7o9uMLVbM8QSb8Sd0Avq1Ix6j8liIMtNX-65NHSZjaHrtumpUh7jXTg~SW1nNMErA-n8aqShJRg~xfkzAS443Nh4OaJ7NdoYlD94pnzdj6lRLTZioFGRw__"
+                                    class="card-img-top" alt="Vợt 3">
+                                <div class="card-body text-left">
+                                    <h5 class="card-title">Vợt cầu lông Lining Halbertec 2000</h5>
+                                    <p class="text-muted">2 màu</p>
+                                    <p class="fw-bold text-danger">1,150,000 đ <span
+                                            class="text-decoration-line-through text-muted">4,150,000 đ</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="card active">
+                                <img src="https://s3-alpha-sig.figma.com/img/3f55/3da9/e1bd86a6125cb2aa44fefbaddc397c0a?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=phNB74DAYRGJZMDLENMeEEk8lSpnb9qv5f3~IuJtgONBHi1PNS6yaibqGhGV1PKN5WzSkG3gpR1NCK9NHfIWllu6bgdKRDNZaU0tSb8v4ZIm42zoCku4RW5b1fKqXAHI9a3S80EK89hrgr4xBKbRHRiI2cPPWvz14wk8I~8mrAE8PVJ7klQHVn4fqU8ojLytwfDUvIPOYveJPRALJNf8u2lVoXpZbwwdxfCOrJA3ifjWvtm1UVLHjob7TdqXilKwFci9cdD4~GTMjDBudDylrh97M25vMQNUHgNv20HpjbMzFaHxe-jYBgyMD~PUKe-pWsE67uxn10ddN7Rtn9z2BQ__"
+                                    class="card-img-top" alt="Vợt 4">
+                                <div class="card-body text-left">
+                                    <h5 class="card-title">Vợt cầu lông Lining Halbertec 2000</h5>
+                                    <p class="text-muted">2 màu</p>
+                                    <p class="fw-bold text-danger">1,150,000 đ <span
+                                            class="text-decoration-line-through text-muted">4,150,000 đ</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="card active">
+                                <img src="https://s3-alpha-sig.figma.com/img/3f55/3da9/e1bd86a6125cb2aa44fefbaddc397c0a?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=phNB74DAYRGJZMDLENMeEEk8lSpnb9qv5f3~IuJtgONBHi1PNS6yaibqGhGV1PKN5WzSkG3gpR1NCK9NHfIWllu6bgdKRDNZaU0tSb8v4ZIm42zoCku4RW5b1fKqXAHI9a3S80EK89hrgr4xBKbRHRiI2cPPWvz14wk8I~8mrAE8PVJ7klQHVn4fqU8ojLytwfDUvIPOYveJPRALJNf8u2lVoXpZbwwdxfCOrJA3ifjWvtm1UVLHjob7TdqXilKwFci9cdD4~GTMjDBudDylrh97M25vMQNUHgNv20HpjbMzFaHxe-jYBgyMD~PUKe-pWsE67uxn10ddN7Rtn9z2BQ__"
+                                    class="card-img-top" alt="Vợt 5">
+                                <div class="card-body text-left">
+                                    <h5 class="card-title">Vợt cầu lông Lining Halbertec 2000</h5>
+                                    <p class="text-muted">2 màu</p>
+                                    <p class="fw-bold text-danger">1,150,000 đ <span
+                                            class="text-decoration-line-through text-muted">4,150,000 đ</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Các sản phẩm khác theo yêu cầu -->
+                    </div>
+                </div>
+            </div>
+            <button
+                class="scroll-btn-left rackets btn btn-light position-absolute top-50 start-0 translate-middle-y z-3">‹</button>
+            <button
+                class="scroll-btn-right rackets btn btn-light position-absolute top-50 end-0 translate-middle-y z-3">›</button>
+        </div>
+        <div class="container mt-4 position-relative">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+                <span class="section-title" style="font-family:'UTM Bebas',sans-serif;">ÁO CẦU LÔNG</span>
+                <a href="#" class="btn"
+                    style="font-weight: bold; block: none; color: black; font-size: 20px; font-family:'UTM Bebas',sans-serif;">XEM
+                    THÊM
+                    <span style="color: #D70000; font-size: 2opx;">»</span></a>
+            </div>
+            <div id="carouselRackets" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row flex-nowrap overflow-auto" id="productRowShirts"
+                            style="display: flex; flex-wrap: nowrap; overflow-x: auto;">
+                            <div class="col-6 col-md-3">
+                                <div class="card active">
+                                    <img src="https://s3-alpha-sig.figma.com/img/9ac2/e992/198e9ce39917d0f5cfc25910004ae1f9?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=r35XsR~hnbMvueIlpxUx0uTJcl72s~Pj8QVBZ91GtZJ5nN8yyT7~ZsgO-7ydeN~VQNi3QBnfbVzR3IYmOIHyY~peE0nQ~mZisY-NEO-2OAdaCPCCFbeFV4m4ioyWRBIc7n2SRiIh6YaXyYXySJZ9rj6poZgzLM-uceAVcIT-l09Y8ovVzObj~~unzQ1sr6JktoJKVXqdYW1JBfqPoaTXMsnMhf9fd6Qjz~EuOZZe9IJPH-nGQWuK62dzkp33-08Ae9M9Mgo2bJoiuJWLvnxw1nDrCzuP0vVxtb35vuHW2acESUFnjxcCZgusVklXBN56dxkyXEcW0X0ntyBu-SQZzg__"
+                                        class="card-img-top" alt="Áo 1">
+                                    <div class="card-body text-left">
+                                        <h5 class="card-title">Áo cầu lông Yonex 6285 nam - Xanh</h5>
+                                        <p class="text-muted">3 mẫu màu sắc</p>
+                                        <p class="fw-bold text-danger">1,150,000 đ <span
+                                                class="text-decoration-line-through text-muted">4,150,000 đ</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Các sản phẩm còn lại (4 sản phẩm) -->
+                            <div class="col-6 col-md-3">
+                                <div class="card active">
+                                    <img src="https://s3-alpha-sig.figma.com/img/b9e0/822f/36898665f630841804c881479c30f6ba?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=F-xnB74JQ-NXwDdj-BdE8~HlWmv6klhB7fdsJo2wYTjFDd5ErDSEVlkdZ90D-O9oz2VWD-BXtstb4uyRvNGK1pzzN14eqTm7rv-7qPC9CSm2dTTbsMRjoaHM6dgTYuWmbnR1jwNbJZViljFbAjUvNjvTrdEf8boZpoUDsRTIeXTug28zDflYXyBSvSLKY2mvWEGYPf1V3BDJmyfgkRa6E6HsktbnVGJ1uV6rH8VOHsp-3lEATgM3N4eAImmIdKD8vmhrsGbS7p6Wpc-W1yF-wqzay3uYUaS5ogUh7LhHERCrS5mS7SmIot3ijP6iBXatcchRtTO9PN~cOLtId5YxDQ__"
+                                        class="card-img-top" alt="Áo 2">
+                                    <div class="card-body text-left">
+                                        <h5 class="card-title">Áo Cầu Lông Li-Ning Nam AAYQ059-1</h5>
+                                        <p class="text-muted">3 mẫu màu sắc</p>
+                                        <p class="fw-bold text-danger">1,150,000 đ <span
+                                                class="text-decoration-line-through text-muted">4,150,000 đ</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Thêm các sản phẩm cho đến sản phẩm thứ 5 -->
+                            <div class="col-6 col-md-3">
+                                <div class="card active">
+                                    <img src="https://s3-alpha-sig.figma.com/img/2bc1/14a5/27ab6da9847e0ec2fa42539ac37af1b3?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=h8MzTfRfdoO3ZxGgpq36BpMf~J2OWxFAQWa3QQ5GrcJOtjijNtIY55WE9xz026ivOoGwf7KtA5KMG8R0NX~3iWHkQkH4P73BjvBt-TcYkwZ~1k87dQmEUDi8BifNpoOprjQkjXh9j9pHIR1Ec7GXMgMFecuTFjWkMGSouKUcU8ogqmT1fSyju8bytBCIfhngXc50XfsGvSZZ4Kj7XIZLDr6qR9u2ShIyRK3n08lZLtpQr3dyKSewP7nE5yBQUAj8jEafRdeYPFXPxSf8O1bfZOAGXsIDfU8BKUpHrVQ9b5qXRaUTSRvD-urpDe7oYywbWg1XHPe-hHVtFCZmUPVfGw__"
+                                        class="card-img-top" alt="Áo 3">
+                                    <div class="card-body text-left">
+                                        <h5 class="card-title">Áo Cầu Lông Li-Ning Nam AAYU127-1</h5>
+                                        <p class="text-muted">3 mẫu màu sắc</p>
+                                        <p class="fw-bold text-danger">1,150,000 đ <span
+                                                class="text-decoration-line-through text-muted">4,150,000 đ</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="card active">
+                                    <img src="https://s3-alpha-sig.figma.com/img/116e/eb07/ec77e7b9c3ac146136fe4c8522d559f2?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=bJYYWoF9wSZcDCyRX4mi7ARGP55U-qx2vTXh9uKhlelDbhh7ua7iqpuWMHozXy2HOnwlelIdHRqjewrnPHFmNdG6-GmjVFLfb1UrV9XzbnTjEBcnULBpw5Hfdoa5h5O8i29tJwWZegxOS5DJEJpHM38p6yKyZy6pq9D0O7lvMucwvWD3KAqgLsxiHSl3tLjFylN2uVRd8GsxjVWaPHTv9qECveIfkHz3enPZZ2juYQHXHytBHCoDn~9VHPBYQ-dadlm-4thIkTf3l217NEcGkuWD8Xs1bKSNIyAQQKxOmm-h3JtlOpSIbtPKAV5PBEXkPr4maiRGVfT0B1yfyIdFpQ__"
+                                        class="card-img-top" alt="Áo 4">
+                                    <div class="card-body text-left">
+                                        <h5 class="card-title">Áo cầu lông Yonex F005 nam - Đen trắng</h5>
+                                        <p class="text-muted">3 mẫu màu sắc</p>
+                                        <p class="fw-bold text-danger">1,150,000 đ <span
+                                                class="text-decoration-line-through text-muted">4,150,000 đ</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="card active">
+                                    <img src="https://s3-alpha-sig.figma.com/img/116e/eb07/ec77e7b9c3ac146136fe4c8522d559f2?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=bJYYWoF9wSZcDCyRX4mi7ARGP55U-qx2vTXh9uKhlelDbhh7ua7iqpuWMHozXy2HOnwlelIdHRqjewrnPHFmNdG6-GmjVFLfb1UrV9XzbnTjEBcnULBpw5Hfdoa5h5O8i29tJwWZegxOS5DJEJpHM38p6yKyZy6pq9D0O7lvMucwvWD3KAqgLsxiHSl3tLjFylN2uVRd8GsxjVWaPHTv9qECveIfkHz3enPZZ2juYQHXHytBHCoDn~9VHPBYQ-dadlm-4thIkTf3l217NEcGkuWD8Xs1bKSNIyAQQKxOmm-h3JtlOpSIbtPKAV5PBEXkPr4maiRGVfT0B1yfyIdFpQ__"
+                                        class="card-img-top" alt="Áo 5">
+                                    <div class="card-body text-left">
+                                        <h5 class="card-title">Áo cầu lông Yonex F005 nam - Đen trắng</h5>
+                                        <p class="text-muted">3 mẫu màu sắc</p>
+                                        <p class="fw-bold text-danger">1,150,000 đ <span
+                                                class="text-decoration-line-through text-muted">4,150,000 đ</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="card active">
+                                    <img src="https://s3-alpha-sig.figma.com/img/116e/eb07/ec77e7b9c3ac146136fe4c8522d559f2?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=bJYYWoF9wSZcDCyRX4mi7ARGP55U-qx2vTXh9uKhlelDbhh7ua7iqpuWMHozXy2HOnwlelIdHRqjewrnPHFmNdG6-GmjVFLfb1UrV9XzbnTjEBcnULBpw5Hfdoa5h5O8i29tJwWZegxOS5DJEJpHM38p6yKyZy6pq9D0O7lvMucwvWD3KAqgLsxiHSl3tLjFylN2uVRd8GsxjVWaPHTv9qECveIfkHz3enPZZ2juYQHXHytBHCoDn~9VHPBYQ-dadlm-4thIkTf3l217NEcGkuWD8Xs1bKSNIyAQQKxOmm-h3JtlOpSIbtPKAV5PBEXkPr4maiRGVfT0B1yfyIdFpQ__"
+                                        class="card-img-top" alt="Áo 6">
+                                    <div class="card-body text-left">
+                                        <h5 class="card-title">Áo cầu lông Yonex F005 nam - Đen trắng</h5>
+                                        <p class="text-muted">3 mẫu màu sắc</p>
+                                        <p class="fw-bold text-danger">1,150,000 đ <span
+                                                class="text-decoration-line-through text-muted">4,150,000 đ</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Các sản phẩm khác theo yêu cầu -->
+                        </div>
+                    </div>
+                </div>
+                <button
+                    class="scroll-btn-left shirts btn btn-light position-absolute top-50 start-0 translate-middle-y z-3">‹</button>
+                <button
+                    class="scroll-btn-right shirts btn btn-light position-absolute top-50 end-0 translate-middle-y z-3">›</button>
+            </div>
+        </div>
+        <div class="container mt-4">
+            <div class="d-flex justify-content-between align-items-center">
+                <span class="section-title" style="font-family:'UTM Bebas',sans-serif;">CƯỚC CHÍNH HÃNG</span>
+                <a href=" #" class="btn"
+                    style="font-weight: bold; block: none; color: black; font-size: 20px; font-family: 'UTM Bebas', sans-serif;">XEM
+                    THÊM
+                    <span style="color: #D70000; font-size: 2opx; font-family:'UTM Bebas',sans-serif;">»</span></a>
+            </div>
+            <div id="carouselRackets" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row flex-nowrap overflow-auto hide-scrollbar" id="productRowStrings">
+                            <div class="col-6 col-md-3">
+                                <div class="card active">
+                                    <img src="https://s3-alpha-sig.figma.com/img/5276/fe1d/5bf13e1434411678d47e87912fd6f126?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=HxgCuD-WCUy4ljSujVbwrN0jJMzIrf4bLfDmpe-NCKaPjx8~kLn-Cm7vS77YERi5OcGecclW2Da-P5QPqHZDHsfYEymbnFGZcpGU5MKUrzDsbi~~r6agQx0tnIRhvG~m5fA01UyhstF9XSIOBrHjC0UB8tidB36GE4h85Mbjuy~KzycRQm1fxIxnBzUXYQTJAhDLrMUAZKyKP0kRgmr~INlpLrFiZTFuIsDz8zkbHlitt0TKQia8SrCpzyW9qADpWxVAsAOKrMUnXyQuTIQHeQrKhqwkhBybb99s7ldYCzy0tnh5mmlCDrykWO4qvZqSIN~EtfJgqVx2GjO4KXwX~w__"
+                                        class="card-img-top" alt="Vợt 1">
+                                    <div class="card-body text-left">
+                                        <h5 class="card-title">Dây Cước Căng Vợt Câu Lông VS BG7</h5>
+                                        <p class="fw-bold text-danger">1,150,000 đ <span
+                                                class="text-decoration-line-through text-muted">4,150,000 đ</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Các sản phẩm còn lại (4 sản phẩm) -->
+                            <div class="col-6 col-md-3">
+                                <div class="card active">
+                                    <img src="https://s3-alpha-sig.figma.com/img/95cb/845f/84a9d6a5022a8699c911781381f74265?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=rMezKNbJoWzyau-ggkKsk076RO-02UCvgKcrl~h-9PwZw8Q8tQ0ApN4ckOWKvJ4GzyChDxrP6YVTZudOqVVU3H-JHolOXHzdmCPHGFriSBQA2Hgh-Q4gUuZgfFhfWaix8~z-B-qcfUc3w5zwxRQKiZRgubcBRzY4J21nb52lX2rQi~URf4QCnCj5RHxjvzSleEL9HyXQY8mHt3YhTPEooqUqXKnwR7upzR4-ncyQWhidLJ29W2VMVkFIRe0vougPPlKmtPs0vdw91XcyZPutQLfDLM34vnZltyA9yeiOJEEo2mlVvPVX3aZPuG1~KWdAibRvNeLBIs1NAD51yzg1WA__"
+                                        class="card-img-top" alt="Vợt 2">
+                                    <div class="card-body text-left">
+                                        <h5 class="card-title">Dây cước căng vợt Yonex BG 65 TITANIUM</h5>
+                                        <p class="fw-bold text-danger">1,150,000 đ <span
+                                                class="text-decoration-line-through text-muted">4,150,000 đ</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Thêm các sản phẩm cho đến sản phẩm thứ 5 -->
+                            <div class="col-6 col-md-3">
+                                <div class="card active">
+                                    <img src="https://s3-alpha-sig.figma.com/img/c93b/1f3b/289ded55bf830e3124f1f591d83d864f?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=iJMDbH4-1~CHsmYTrE0yNkojR2eUzH7-GW~VM7UTg1-gkHQeCjrZ~Ja72Hsu-djQbfRw0j6B3ES0IR8F82pHbiFrSCgPFklylbx2WBm8Nn49zrugCleIpPm~UhTbCPDSgYxSdV5KnLpDnvO-8nV5jrs7vANAA7gRDqc1LaOUSybBQn7NV5ERtSOg~JaDd00pEuKotlAYcP03QHwlRb854MXRFESvRCwsy8M~V0gJ6mhCs41eQbiH3IIRJV-Nop9XtTWqhb0GiJNa2fSldwRPkDcWtQSUIlDpPbvNqfu9o~jjq5H2SzjC0pn3Ty3gyj-BST6Ljt0U0s~msB3In5lqzg__"
+                                        class="card-img-top" alt="Vợt 5">
+                                    <div class="card-body text-left">
+                                        <h5 class="card-title">Vợt cầu lông Lining Halbertec 2000</h5>
+                                        <p class="fw-bold text-danger">1,150,000 đ <span
+                                                class="text-decoration-line-through text-muted">4,150,000 đ</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="card active">
+                                    <img src="https://s3-alpha-sig.figma.com/img/5a78/0ec2/d2f13a3434d4fbb8d9c8d765cafba778?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=CRPwYKorxbI6tNBhuFaUVu-tyFL9XLAZWgKF1iTSB09ZsZh3UmrP0FiigWxsXL5X1Dr-KfcO9OEVETNZzmNhXjyjJOA1Q0FFcBoxgmenEXcsfVTNgHD4IEvyTIfGqMH8uYr3rblIvJsKiloWtrI7csabcUhD5asXxLdgjIbBXMg0cmbmkXbiaO-bWAp1wUR9BSTo7yVKJ~zvPj4qLTPCXs0KRb7hhSLlkQXZBHjQb4Vx8OVlmOMdzymocg8lN9aIcVNH6qY7G94icIjt6SC1mUelbi~~nTioSh8MbRgG48blHhEqRiwWOmdaLuNMx4SRy9v9spgc-NbREZ12KAfNqA__"
+                                        class="card-img-top" alt="Vợt 5">
+                                    <div class="card-body text-left">
+                                        <h5 class="card-title">Cước Cầu Lông NS65 AXJR014-2</h5>
+                                        <p class="fw-bold text-danger">1,150,000 đ <span
+                                                class="text-decoration-line-through text-muted">4,150,000 đ</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="card active">
+                                    <img src="https://s3-alpha-sig.figma.com/img/5a78/0ec2/d2f13a3434d4fbb8d9c8d765cafba778?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=CRPwYKorxbI6tNBhuFaUVu-tyFL9XLAZWgKF1iTSB09ZsZh3UmrP0FiigWxsXL5X1Dr-KfcO9OEVETNZzmNhXjyjJOA1Q0FFcBoxgmenEXcsfVTNgHD4IEvyTIfGqMH8uYr3rblIvJsKiloWtrI7csabcUhD5asXxLdgjIbBXMg0cmbmkXbiaO-bWAp1wUR9BSTo7yVKJ~zvPj4qLTPCXs0KRb7hhSLlkQXZBHjQb4Vx8OVlmOMdzymocg8lN9aIcVNH6qY7G94icIjt6SC1mUelbi~~nTioSh8MbRgG48blHhEqRiwWOmdaLuNMx4SRy9v9spgc-NbREZ12KAfNqA__"
+                                        class="card-img-top" alt="Vợt 5">
+                                    <div class="card-body text-left">
+                                        <h5 class="card-title">Dây cước căng vợt Yonex BG EXBOLT 68</h5>
+                                        <p class="fw-bold text-danger">1,150,000 đ <span
+                                                class="text-decoration-line-through text-muted">4,150,000 đ</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Các sản phẩm khác theo yêu cầu -->
+                        </div>
+                    </div>
+                </div>
+                <button
+                    class="scroll-btn-left strings btn btn-light position-absolute top-50 start-0 translate-middle-y z-3">‹</button>
+                <button
+                    class="scroll-btn-right strings btn btn-light position-absolute top-50 end-0 translate-middle-y z-3">›</button>
+            </div>
+
+        </div>
+    </section>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            function setupScrollButtons(rowId, leftBtnClass, rightBtnClass) {
+                const productRow = document.getElementById(rowId);
+                const scrollLeftBtn = document.querySelector(leftBtnClass);
+                const scrollRightBtn = document.querySelector(rightBtnClass);
+
+                const scrollAmount = 300;
+
+                scrollLeftBtn.addEventListener("click", function () {
+                    productRow.scrollBy({ left: -scrollAmount, behavior: "smooth" });
+                });
+
+                scrollRightBtn.addEventListener("click", function () {
+                    productRow.scrollBy({ left: scrollAmount, behavior: "smooth" });
+                });
+            }
+
+            setupScrollButtons("productRowRackets", ".scroll-btn-left.rackets", ".scroll-btn-right.rackets");
+            setupScrollButtons("productRowShirts", ".scroll-btn-left.shirts", ".scroll-btn-right.shirts");
+            setupScrollButtons("productRowStrings", ".scroll-btn-left.strings", ".scroll-btn-right.strings");
+        });
+
+    </script>
+
+    <section>
+        <div class="container mt-4">
+            <h2 class="fw-bold" style="font-family: 'UTM Bebas', sans-serif; font-size: 40px;">TIN TỨC MỚI</h2>
+            <div class="row">
+                <!-- Cột trái: Tin tức -->
+                <div class="col-md-8">
+                    <div class="news-item d-flex">
+                        <img src="https://s3-alpha-sig.figma.com/img/89ee/664e/63d10232c791710367057ce8c3dc2ac0?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=h7zz4Y-fyt3AaCUiPRa9F4ubFfjy0gjtW5E0ezPy1sB4kXZOGwoBxTbO2p3NKSlBWAd~Yxx9kq2Z9EEHlNMCWS9zB4qDSMsddYfZdpw-5B7P41hsnhmt7pweULdhB~oQ7i~rm2j81CqAYhTKCboj4Zw3pfRZxtfbX3uQhJMsLg1-GzLytSu1ZbofK~IkP7Bkxl~nkQNAIbIR8vJdQ0APOcbdUGCsd8OYhZxCP64x7T6xxZsBGEUELnxAqBUpLkMZGiJjuxoY0W0UZBsM5NXy36lg-eS0Wd2UTPAfvYRhlzmQu~IRK5nKwc05pYaYhnGxr~5ZKZkP80ZlV~u3NX9F3Q__"
+                            class="img-fluid news-img" alt="Tin tức">
+                        <div class="news-content">
+                            <h5 class="fw-bold" style="font-family:'quicksand',sans-serif;">Ý nghĩa thẻ phạt trong cầu
+                                lông có thể bạn chưa biết</h5>
+                            <p class="text-muted"><i class="fa fa-calendar"
+                                    style="font-family:'quicksand',sans-serif;"></i> 21/12/2024</p>
+                            <p>Ý nghĩa thẻ phạt trong cầu lông gồm nhiều ý nghĩa có thể bạn chưa biết. Cùng vua vợt tìm
+                                hiểu ngay nhé.</p>
+                        </div>
+                    </div>
+                    <div class="news-item d-flex">
+                        <img src="https://s3-alpha-sig.figma.com/img/89ee/664e/63d10232c791710367057ce8c3dc2ac0?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=h7zz4Y-fyt3AaCUiPRa9F4ubFfjy0gjtW5E0ezPy1sB4kXZOGwoBxTbO2p3NKSlBWAd~Yxx9kq2Z9EEHlNMCWS9zB4qDSMsddYfZdpw-5B7P41hsnhmt7pweULdhB~oQ7i~rm2j81CqAYhTKCboj4Zw3pfRZxtfbX3uQhJMsLg1-GzLytSu1ZbofK~IkP7Bkxl~nkQNAIbIR8vJdQ0APOcbdUGCsd8OYhZxCP64x7T6xxZsBGEUELnxAqBUpLkMZGiJjuxoY0W0UZBsM5NXy36lg-eS0Wd2UTPAfvYRhlzmQu~IRK5nKwc05pYaYhnGxr~5ZKZkP80ZlV~u3NX9F3Q__"
+                            class="img-fluid news-img" alt="Tin tức">
+                        <div class="news-content">
+                            <h5 class="fw-bold" style="font-family:'quicksand',sans-serif;">Ý nghĩa thẻ phạt trong cầu
+                                lông có thể bạn chưa biết</h5>
+                            <p class="text-muted"><i class="fa fa-calendar"
+                                    style="font-family:'quicksand',sans-serif;"></i> 21/12/2024</p>
+                            <p>Ý nghĩa thẻ phạt trong cầu lông gồm nhiều ý nghĩa có thể bạn chưa biết. Cùng vua vợt tìm
+                                hiểu ngay nhé.</p>
+                        </div>
+                    </div>
+                    <div class="news-item d-flex">
+                        <img src="https://s3-alpha-sig.figma.com/img/89ee/664e/63d10232c791710367057ce8c3dc2ac0?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=h7zz4Y-fyt3AaCUiPRa9F4ubFfjy0gjtW5E0ezPy1sB4kXZOGwoBxTbO2p3NKSlBWAd~Yxx9kq2Z9EEHlNMCWS9zB4qDSMsddYfZdpw-5B7P41hsnhmt7pweULdhB~oQ7i~rm2j81CqAYhTKCboj4Zw3pfRZxtfbX3uQhJMsLg1-GzLytSu1ZbofK~IkP7Bkxl~nkQNAIbIR8vJdQ0APOcbdUGCsd8OYhZxCP64x7T6xxZsBGEUELnxAqBUpLkMZGiJjuxoY0W0UZBsM5NXy36lg-eS0Wd2UTPAfvYRhlzmQu~IRK5nKwc05pYaYhnGxr~5ZKZkP80ZlV~u3NX9F3Q__"
+                            class="img-fluid news-img" alt="Tin tức">
+                        <div class="news-content">
+                            <h5 class="fw-bold" style="font-family:'quicksand',sans-serif;">Ý nghĩa thẻ phạt trong cầu
+                                lông có thể bạn chưa biết</h5>
+                            <p class="text-muted"><i class="fa fa-calendar"
+                                    style="font-family:'quicksand',sans-serif;"></i> 21/12/2024</p>
+                            <p>Ý nghĩa thẻ phạt trong cầu lông gồm nhiều ý nghĩa có thể bạn chưa biết. Cùng vua vợt tìm
+                                hiểu ngay nhé.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cột phải: Quảng cáo -->
+                <div class="col-md-4">
+                    <div id="bannerAdsCarousel" class="carousel slide banner-ads-carousel" data-bs-ride="carousel"
+                        data-bs-interval="3000">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://s3-alpha-sig.figma.com/img/b044/f12e/bbd81a4e084df3deba7e611b8a029ba4?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Xq-LaPg1ZADgl6wdfUQD-v8AxKKI94e6v47tUoV~-hENZE~eVbFbigTxkeveI2lu8ULFfLT9Lcpfq2ize4or7j37UJSP7J-XV95yJOQSRC1vWCIoTpO0N2iz6qlfhGhuxOBAZmEgV-iOne7kG177TJHWnSUfTKa5ONqsF9neqD89W4ND5GQpMG6UTwvs4hQmulZ3CAmrteHPxkFRSW4u~G1iaOWj2fptYwq3EHWIwQxdlQJjYxlA64L9sJD5lrjp4ErEWxqzeMRKxz4~OaJBZLPBTP1Ibma5QvevitxJUb4RU8dcYN5Mj2aF9qBigm9xFzmN2Was3S4GwSSCnBevKg__"
+                                    class="img-fluid banner-ads" alt="Quảng cáo 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://s3-alpha-sig.figma.com/img/b044/f12e/bbd81a4e084df3deba7e611b8a029ba4?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Xq-LaPg1ZADgl6wdfUQD-v8AxKKI94e6v47tUoV~-hENZE~eVbFbigTxkeveI2lu8ULFfLT9Lcpfq2ize4or7j37UJSP7J-XV95yJOQSRC1vWCIoTpO0N2iz6qlfhGhuxOBAZmEgV-iOne7kG177TJHWnSUfTKa5ONqsF9neqD89W4ND5GQpMG6UTwvs4hQmulZ3CAmrteHPxkFRSW4u~G1iaOWj2fptYwq3EHWIwQxdlQJjYxlA64L9sJD5lrjp4ErEWxqzeMRKxz4~OaJBZLPBTP1Ibma5QvevitxJUb4RU8dcYN5Mj2aF9qBigm9xFzmN2Was3S4GwSSCnBevKg__"
+                                    class="img-fluid banner-ads" alt="Quảng cáo 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://s3-alpha-sig.figma.com/img/b044/f12e/bbd81a4e084df3deba7e611b8a029ba4?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Xq-LaPg1ZADgl6wdfUQD-v8AxKKI94e6v47tUoV~-hENZE~eVbFbigTxkeveI2lu8ULFfLT9Lcpfq2ize4or7j37UJSP7J-XV95yJOQSRC1vWCIoTpO0N2iz6qlfhGhuxOBAZmEgV-iOne7kG177TJHWnSUfTKa5ONqsF9neqD89W4ND5GQpMG6UTwvs4hQmulZ3CAmrteHPxkFRSW4u~G1iaOWj2fptYwq3EHWIwQxdlQJjYxlA64L9sJD5lrjp4ErEWxqzeMRKxz4~OaJBZLPBTP1Ibma5QvevitxJUb4RU8dcYN5Mj2aF9qBigm9xFzmN2Was3S4GwSSCnBevKg__"
+                                    class="img-fluid banner-ads" alt="Quảng cáo 3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Banner kết nối -->
+        <div class="connect-banner mt-4">
+            <div class="container d-flex justify-content-center align-items-center text-white py-3">
+                <p class="mb-0 me-3">Kết Nối Với Chúng Tôi</p>
+                <div class="social-icons d-flex">
+                    <a href="#"><img
+                            src="https://s3-alpha-sig.figma.com/img/c7a6/a3aa/9c1f8b1cfc9720a1cb2475d5f2476a13?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=PAVOBYkKz6sxBZ22WFlcTSqmJkHQt7YOIJvMJDg0CZ0udc7GBNg1TIdsJcDTiy14oUy8GMXlLvBVWtMRqR2fkDBcvkwV8ASTMOWtZPjkHhBy40pIUxJX7lIJ9G9MhZVKXByXpXWPWsmmikcm7O8zbI4NHb3bz1sdW-Yjc6HuY4WyRlsAlmzNR9C4VQ4bvELzEYKLltMPBMzZvEQaawyfmfU7liQcBuE4l0dbK6sBPwUrO1pkO3rZ6mllbsvhpqhgt0oCWCn~GyT7JQpksgZbIppQYCxdmNZRRT9iE9VofqPy4G2ok42Pe-yHMfe6HZVkcEPeAuFlRVfGX1Y3M92A9Q__"
+                            alt="Facebook"></a>
+                    <a href="#"><img
+                            src="https://s3-alpha-sig.figma.com/img/f5b6/b382/6b7737cfad339dc1c0af7e08f85e068b?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=F5KmcMCvXw1F8D13UnjTNpgLRK5dG8VdtH~3BASUevubkA~FBzJlZdvASLlko~ULrk78c7XLdyLIEPDmWgX2YHDfd2LVJmvtRCqIGkb4LOr3BmKkQ9sxp7Ru11YrZuh7dVcguBm71fxWl7jaBCE3LmJ8WMXhXOl2s7HiXIP0yf2b-s6fLajoCWVzKVTtbJlDP71cN4~G4OFfmewq2U1Xw~wDw73aY~ztPLGGL~nSVhTTFhBzO~LVIz71FFuiUqWTwURShkwSj9eRVUp~k6PF2CGv701wmFAc0iQkGQrWcpO-by2qA~HhWxls0uEV3UtrMm4El6ylpq-Xsk5aaVCjPg__"
+                            alt="Twitter"></a>
+                    <a href="#"><img
+                            src="https://s3-alpha-sig.figma.com/img/a959/d693/40fbea8fdf724d6fde8d645bafeb7721?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=WX9GbYX1asZExve6U3anZzZ33ntlMK3svuzCNzoQw6hr3r7eggu-ItvQikM483QdmmbOrT-Sfc~2BmpgU82Bnp6rTN31DyLeXOzG323ZJGMssmHzOrEEa2AZHJjnREApJCl1frDVvp0WoIN9Z~h~4UPWexYi580K0RiabnhZnEUyOmga7~28SeIxfHygg9S711Nuc-EREIJ3s0ci3rEMDlNrAAKHTv7OyUTNZBC4-suhCwZ0kFJgLq2eODRSQzrwJuTFCGK~FEZEbQUi2r3zOGCeB5OHYouEs1hC7TwyHKJY3WzsaY2QFk1ZrsUYf9lhVowYW9QdlgfzahQ35mNJPQ__"
+                            alt="LinkedIn"></a>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <!-- Cột 1: Logo & Giới thiệu -->
+                    <div class="col-lg-3 col-md-6 footer-col" style="font-family:'quicksand',sans-serif;">
+                        <img src="logo3w.png" alt="Logo" class="footer-logo">
+                        <p>VUAVOT - Hệ thống cửa hàng chuyên cung cấp các sản phẩm cầu lông chính hãng: vợt, giày, cước,
+                            phụ kiện.</p>
+                        <p><i class="bi bi-geo-alt-fill"></i> Địa chỉ</p>
+                        <p><i class="bi bi-telephone-fill"></i> Điện thoại</p>
+                        <p><i class="bi bi-envelope-fill"></i> Mail</p>
+                    </div>
+
+                    <!-- Cột 2: Chính sách -->
+                    <div class="col-lg-3 col-md-6 footer-col">
+                        <h5>CHÍNH SÁCH</h5>
+                        <ul style="list-style-type: disc; font-family:'quicksand',sans-serif;">
+                            <li>Chính sách xử lý khiếu nại</li>
+                            <li>Chính sách bảo hành</li>
+                            <li>Điều khoản dịch vụ</li>
+                            <li>Chính sách giao hàng và đổi trả</li>
+                            <li>Liên hệ</li>
+                            <li>Hướng dẫn kiểm tra bảo hành</li>
+                            <li>CHÍNH SÁCH THANH TOÁN</li>
+                            <li>Chính sách bảo mật thông tin</li>
+                        </ul>
+                    </div>
+
+                    <!-- Cột 3: Hỏi đáp - Dịch vụ -->
+                    <div class="col-lg-3 col-md-6 footer-col">
+                        <h5>HỎI ĐÁP - DỊCH VỤ</h5>
+                        <ul style="list-style-type: disc; font-family:'quicksand',sans-serif;">
+                            <li>Dịch vụ căng lưới</li>
+                            <li>Tra cứu đơn hàng</li>
+                            <li>Tra cứu đơn hàng đáp - FAQs</li>
+                            <li>Logo - Bộ nhận diện thương hiệu</li>
+                            <li>Hướng dẫn mua hàng Online</li>
+                            <li>Tuyển dụng - Cơ hội việc làm</li>
+                            <li>Tư vấn mua hàng online - CSKH</li>
+                        </ul>
+                    </div>
+
+                    <!-- Cột 4: Giờ mở cửa & Thanh toán -->
+                    <div class="col-lg-3 col-md-6 footer-col" style="font-family:'quicksand',sans-serif;">
+                        <h5>THỜI GIAN MỞ CỬA</h5>
+                        <p>08:00 - 21:30</p>
+                        <p>Từ thứ 2 đến thứ 7</p>
+                        <p>08:00 - 08:30</p>
+                        <p>Chủ nhật</p>
+
+                        <h5>PHƯƠNG THỨC THANH TOÁN</h5>
+                        <img src="https://s3-alpha-sig.figma.com/img/d490/8473/6580b09e07789c377be6b6796d67bd59?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Dbss1T-OhTrbt7o~D1~f2POrih9FgR2GcmZL9McM987yWzMtGCH2GweCJysjck8hQCizj0gxliX0n3RLlHNEHjXPTgzvU5iZfSudqpJtCu37MakZfnMSAbAIQQplzgBkxlM8FXpCKQo9MJQ2iWwgJy-iRVD6bHULHmOGY9bIGxhHwA8gO9hmz550g6LATUV-AfsyQSw2nU-a-xJxlB7KtyRQiD3~3gJHF7XguUyqCA56cphEZUs6b39PHM~1fodjjHTGVtIhcms1gBnmJUE0toRIxmK5Uw30f7eHbLYkCtOSal7YpBE9qGYtvgDcCf5oGMyXujyzcciIMtH3hWogGQ__"
+                            alt="Thanh toán" class="payment-img">
+                        <img src="https://s3-alpha-sig.figma.com/img/5b28/b42e/b3893d2252a509de8609d49c90f74366?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=BEnUwAdlcy0cAsOttA78-KJELE~xsU8QE2NDZxhCdnS1M1bWkAXIGNZ920HwyA-H8KWUdFEvN~334-oiEgE2NoIQhcE~ZiLV5aEC70gPZZUuw558RQtt-vqU8esnP1DapuFhHKV~UtQ2QobI7ALQNlc9h6Lg7d~Q9GIJjjioSh~-jcmr3rkHAkl-K8NBVU45fAdtBXg3eM6OB-ZwkS-1QZ0~D26FZKtw3mCg5QLiioolRkr8YG2yrqL9nDuRCwWyGh7oOBTVBG29A3ii07WO~qe62BJDUOv3hxlizaIv5NLV08XhtXmpgsDIvncfq2rW7xWEM1ZfbtrsL2htAlgRBA__"
+                            alt="Chứng nhận" class="gov-cert">
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slides img');
+        const dots = document.querySelectorAll('.dot');
+        let slideInterval;
+
+        function changeSlide(index) {
+            slides[currentSlide].classList.remove('active');
+            dots[currentSlide].classList.remove('active');
+            currentSlide = index;
+            slides[currentSlide].classList.add('active');
+            dots[currentSlide].classList.add('active');
+        }
+
+        function nextSlide() {
+            let nextSlide = (currentSlide + 1) % slides.length;
+            changeSlide(nextSlide);
+        }
+
+        // Chạy slider tự động
+        function startSlideShow() {
+            slideInterval = setInterval(nextSlide, 3000);
+        }
+
+        function stopSlideShow() {
+            clearInterval(slideInterval);
+        }
+
+        // Thêm sự kiện click vào chấm tròn để chuyển slide
+        dots.forEach((dot, index) => {
+            dot.addEventListener("click", () => {
+                changeSlide(index);
+                stopSlideShow();
+                startSlideShow();
+            });
+        });
+
+        // Dừng tự động chạy khi di chuột vào slider
+        document.querySelector(".slider").addEventListener("mouseenter", stopSlideShow);
+        document.querySelector(".slider").addEventListener("mouseleave", startSlideShow);
+
+        // Bắt đầu chạy khi tải xong
+        if (slides.length > 0) {
+            slides[0].classList.add("active");
+            dots[0].classList.add("active");
+            startSlideShow();
+        }
+    });
+</script>
+<script src="js/swiper.js"></script>
+<script src="js/votcaulong.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
